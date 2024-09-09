@@ -85,6 +85,7 @@ async def atık(ctx,atik_turu):
         with open('images/kaynaktüketim.jpg','rb') as f:
             picture = discord.File(f)
             await ctx.send(file=picture)
+            
     elif atik_turu == 'kararsızım':
         await ctx.send("Şunlara Bakabilirsin. (**kaynak** , **ekonomi** veya  **çevre**)")
 
